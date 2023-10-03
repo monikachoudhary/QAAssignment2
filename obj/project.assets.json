@@ -377,6 +377,16 @@
             "related": ".xml"
           }
         }
+      },
+      "TriangleSolver/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/TriangleSolver.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TriangleSolver.dll": {}
+        }
       }
     }
   },
@@ -969,15 +979,20 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "TriangleSolver/1.0.0": {
+      "type": "project",
+      "path": "../TriangleSolver/TriangleSolver.csproj",
+      "msbuildProject": "../TriangleSolver/TriangleSolver.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "C:\\Users\\monik\\Downloads\\Archive\\TriangleSolver\\TriangleSolver.csproj",
       "Microsoft.NET.Test.Sdk >= 17.7.1",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
       "NUnit3TestAdapter >= 4.4.2",
+      "TriangleSolver >= 1.0.0",
       "coverlet.collector >= 3.2.0"
     ]
   },
@@ -1070,16 +1085,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\monik\\Downloads\\Archive\\TriangleSolver\\TriangleSolver.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\monik\\Downloads\\Archive\\TriangleSolver\\TriangleSolver.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

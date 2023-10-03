@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "n5S866VRygvB49z6iI0k8q70IQ671T2OgC48zLZ27KppH0S8DvbwAb4PdO9vsTWwKqFbzvIlLebq/iTyk+cYBQ==",
-  "success": false,
+  "dgSpecHash": "SPCZNn0RhJg6hyDXBV7OrL3R/pAblAojDZbTni3A0F541rbbIJjQIpvdTzWVKhTX16UY2q0W/pdceSJg6J+5Gg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\monik\\Downloads\\Archive\\TriangleSolver.Tests\\TriangleSolver.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\monik\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
@@ -18,15 +18,5 @@
     "C:\\Users\\monik\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
     "C:\\Users\\monik\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\monik\\Downloads\\Archive\\TriangleSolver\\TriangleSolver.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\monik\\Downloads\\Archive\\TriangleSolver\\TriangleSolver.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }
